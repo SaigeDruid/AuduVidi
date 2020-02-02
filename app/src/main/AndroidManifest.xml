@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ImageRecognition"></activity>
+        <activity android:name=".ToneAnalyzer" />
+        <activity android:name=".TranslateSpeech" />
+        <activity android:name=".TranslateText" />
+        <activity android:name=".SpeechToText" />
+        <activity android:name=".TextToSpeech" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
