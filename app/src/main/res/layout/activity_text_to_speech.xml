@@ -8,6 +8,26 @@
     android:background="#DFEDF7"
     tools:context=".TextToSpeech">
 
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="354dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="464dp"
+        android:hint="type text here"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollHorizontally="false"
+        android:textColor="#BA87CC"
+        android:textColorHighlight="#87B4CC"
+        android:textColorHint="#A8A8A8"
+        android:textColorLink="#AACC87"
+        android:textCursorDrawable="@android:color/tertiary_text_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivWaves"
+        app:layout_constraintStart_toEndOf="@+id/ivWaves"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageView
         android:id="@+id/ivWaves"
         android:layout_width="407dp"
