@@ -2,8 +2,54 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IR"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DFEDF7"
     tools:context=".ImageRecognition">
 
+    <ImageView
+        android:id="@+id/ivWaves"
+        android:layout_width="410dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="525dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/waves" />
+
+    <TextView
+        android:id="@+id/tvIR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="640dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Image Recognition"
+        android:textColor="#AACC87"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivWaves"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivWaves"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="646dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="60dp"
+        android:background="#AACC87"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
